@@ -1,0 +1,183 @@
+body {
+   background-image: url(../img/padrao.jpg);
+    background-repeat: no-repeat;
+
+    margin: 0;
+}
+#menu {
+    background-color: black;
+    color: brown;
+    width: 100%;
+
+    text-align: center;
+
+    height: 50px;
+    margin-top: -20px;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#intro {
+    margin-left: 30%;
+    margin-top: 5%;
+
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+
+    color: black;
+
+    border-radius: 15px;
+
+    background-color: gray;
+
+    text-align: center;
+    font-size:16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#temas{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-gap: 10px;
+
+    font-size: larger;  
+}
+#start {
+   
+    padding: 5px;
+    border-radius: 5px;
+    color: whitesmoke;    
+    background-color: black;
+    border: 1px solid  black;
+
+    transition: 0.5ms;
+}
+#start:hover {
+    background-color:brown;
+    border: 1px solid  brown;
+}
+#mesa {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+
+    width: 300px;
+}
+#modal {
+    margin-left: 45%;
+    margin-top:-500px;
+
+    width: 200px;
+   
+    padding: 10px;
+
+    color: brown;
+
+    border-radius: 15px;
+
+    background-color: black;
+
+    text-align: center;
+    font-size:16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    position: absolute;
+
+    z-index: 999999;
+}
+#cont {
+    margin-top: -580px;
+
+    color: brown;
+    background-color: black;
+
+    width: 100px;
+    height: 40px;
+
+    padding: 5px;
+
+    position: absolute;
+}
+#btnLancarDado {
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    color: whitesmoke;    
+    background-color: brown;
+    border: 1px solid  brown;
+}
+#btnLancarDado:hover {
+    background-color:rgb(110, 201, 68);
+    border: 1px solid rgb(110, 201, 68);
+}
+#btnHistorico {
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+
+    margin-left: 240px;
+    margin-top: -45px;
+    border-radius: 5px;
+    color: whitesmoke;    
+    background-color: black;
+    border: none;
+
+    position: absolute;
+}
+#btnHistorico:hover {
+    color:rgb(110, 201, 68);
+    border: none;
+}
+#historico {
+    margin-left: 17%;
+    margin-top:0px;
+
+    width: 200px;
+   
+    padding: 10px;
+
+    color: brown;
+
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+    background-color: black;
+
+    text-align: center;
+    font-size:16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    position: absolute;
+
+    z-index: 999999;
+    position: absolute;
+}
+#btnVoltar {
+
+    color: whitesmoke;    
+    background-color: black;
+    border: none;
+}
+#btnVoltar:hover {
+    color:rgb(110, 201, 68);
+    border: none;
+}
+#continua {
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+
+    margin-left: 120px;
+    margin-top: -45px;
+    border-radius: 5px;
+    color: whitesmoke;    
+    background-color: brown;
+    border: 1px solid  brown;
+
+    position: absolute;
+}
+#continua:hover {
+    background-color:rgb(110, 201, 68);
+    border: 1px solid rgb(110, 201, 68);
+}
+
